@@ -26,6 +26,9 @@ setup(
         'console_scripts': [
              'publisher = taskone_nodes.publisher:main',
              'subscriber = taskone_nodes.subscriber:main',
+             'node1 = taskone_nodes.node1:main',
+             'node2 = taskone_nodes.node2:main',
+             'node3 = taskone_nodes.node3:main',
         ],
     },
 )
